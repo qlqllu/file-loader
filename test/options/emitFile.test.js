@@ -1,4 +1,4 @@
-import loader from '../src';
+import loader from '../../src';
 
 const run = function run(resourcePath, query, content = new Buffer('1234')) {
   let result = false;
@@ -19,12 +19,12 @@ const run = function run(resourcePath, query, content = new Buffer('1234')) {
   return result;
 };
 
-describe('optional-emission', () => {
-  it('should emit a file by default', () => {
-    expect(run('whatever.txt', '')).toBe(true);
+describe('emitFile', () => {
+  it('{Boolean} - true - (default)', () => {
+    expect(run('file.txt', '')).toBe(true);
   });
 
-  it('should not emit a file if disabled', () => {
-    expect(run('whatever.txt', 'emitFile=false')).toBe(false);
+  it('{Boolean} - false', () => {
+    expect(run('file.txt', 'emitFile=false')).toBe(false);
   });
 });

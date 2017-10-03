@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useRelativePath - options.context 1`] = `Array []`;
+
+exports[`useRelativePath - options.context 2`] = `"module.exports = __webpack_public_path__ + \\"9c87cbf3ba33126ffd25ae7f2f6bbafb.png\\";"`;
+
+exports[`useRelativePath - options.context 3`] = `undefined`;
+
+exports[`useRelativePath - options.context 4`] = `Object {}`;
+
+exports[`useRelativePath - this.options.context 1`] = `Array []`;
+
+exports[`useRelativePath - this.options.context 2`] = `"module.exports = __webpack_public_path__ + \\"./9c87cbf3ba33126ffd25ae7f2f6bbafb.png\\";"`;
+
+exports[`useRelativePath - this.options.context 3`] = `undefined`;
+
+exports[`useRelativePath - this.options.context 4`] = `Object {}`;

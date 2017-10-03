@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`publicPath - {Function} 1`] = `Array []`;
+
+exports[`publicPath - {Function} 2`] = `"module.exports = \\"test/9c87cbf3ba33126ffd25ae7f2f6bbafb.png\\";"`;
+
+exports[`publicPath - {Function} 3`] = `undefined`;
+
+exports[`publicPath - {Function} 4`] = `Object {}`;
+
+exports[`publicPath - {String} 1`] = `Array []`;
+
+exports[`publicPath - {String} 2`] = `"module.exports = \\"/test/test9c87cbf3ba33126ffd25ae7f2f6bbafb.png\\";"`;
+
+exports[`publicPath - {String} 3`] = `undefined`;
+
+exports[`publicPath - {String} 4`] = `Object {}`;
